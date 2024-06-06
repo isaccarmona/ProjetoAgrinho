@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "LemonMilk";
+  src: url("LEMONMILK-Regular.otf") format("opentype");
+}
+
+h1 {
+  font-family: "LemonMilk", sans-serif; /* Added a fallback font */
+  font-weight: normal; /* Reset the font weight to normal as LemonMilk is likely to be used as a bold font */
+  text-transform: uppercase; /* Assuming that you want to use LemonMilk for headings, it's common to use uppercase text */
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  color: #0f4c81;
+}
+h2 {
+  font-size: 35px;
+}
+body {
+  text-align: center;
+  justify-content: center;
+  font-family: "LemonMilk", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 20px;
+  margin: 0;
+  background: linear-gradient(to right, #008000, #87ceeb);
+  background-size: 200% 200%;
+  animation: gradient 10s ease infinite;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.numero1 {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.texto-imagem1 {
+  font-size: 25px;
+  margin-top: 90px;
+}
+h2:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+.card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  width: 390px; /* adjust the width as needed */
+  display: flex;
+  align-items: center;
+  height: 450px;
+  margin-top: 0;
+  text-align: center;
+  justify-content: center;
+}
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px auto;
+}
+.numero2 {
+  margin-left: 0;
+  text-align: center;
+  justify-content: center;
+}
