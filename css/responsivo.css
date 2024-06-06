@@ -18,10 +18,6 @@ p {
   .numero1 {
     flex-direction: column;
   }
-  .imgn1 {
-    width: 50%;
-    margin: 0 auto;
-  }
   .texto-imagem1 {
     margin-top: 20px;
   }
@@ -39,3 +35,19 @@ p {
     margin-top: 30px;
   }
 }
+@media screen and (max-width: 768px);{
+  .card {
+    flex-direction: column;
+    margin-left: 0;
+    margin-bottom: 32px;
+  height: 150px;
+  border: 1px solid #ddd;
+  }
+.cards-container {
+  flex-direction: column;
+margin-left: 0;
+margin-bottom: 32px;
+}
+}
+  
+
