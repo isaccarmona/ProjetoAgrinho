@@ -11,6 +11,7 @@ h1 {
   justify-content: center;
   display: flex;
   color: #0f4c81;
+
 }
 h2 {
   font-size: 35px;
@@ -23,20 +24,7 @@ body {
   line-height: 1.5;
   padding: 20px;
   margin: 0;
-  background: linear-gradient(to right, #008000, #87ceeb);
-  background-size: 200% 200%;
-  animation: gradient 10s ease infinite;
-}
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+  background-color: black;
 }
 .numero1 {
   display: flex;
@@ -58,13 +46,6 @@ h2:hover {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin: 20px;
-  width: 390px; /* adjust the width as needed */
-  display: flex;
-  align-items: center;
-  height: 450px;
-  margin-top: 0;
-  text-align: center;
-  justify-content: center;
 }
 .cards-container {
   display: flex;
