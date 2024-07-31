@@ -24,24 +24,23 @@ body {
   line-height: 1.5;
   padding: 20px;
   margin: 0;
-  background-color: gray;
+  background-color: rgb(59, 59, 59);
+
 }
 .numero1 {
   display: flex;
   align-items: flex-start;
   gap: 10px;
 }
-.texto-imagem2,
 .texto-imagem1 {
   font-size: 25px;
-  margin-top: 90px;
-  color: black;
+  color: rgb(255, 255, 255);
+}
+.texto-imagem2 {
+  font-size: 25px;
+  color: rgb(0, 0, 0);
 }
 
-h2:hover {
-  transform: scale(1.1);
-  transition: transform 0.3s ease-in-out;
-}
 .card {
   background-color: #fff;
   padding: 20px;
@@ -68,3 +67,44 @@ h2:hover {
   text-align: center;
   justify-content: center;
 }
+.navbar {
+  position: sticky;
+  top: 0; 
+  height: 30px;
+  width: 97%;
+  background-color: #ffffff;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1; t
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 70px;
+}
+
+.nav-link {
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #ccc;
+}
+

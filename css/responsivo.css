@@ -35,19 +35,30 @@ p {
     margin-top: 30px;
   }
 }
-@media screen and (max-width: 768px);{
+@media screen and (max-width: 768px);
+ {
   .card {
     flex-direction: column;
     margin-left: 0;
     margin-bottom: 32px;
-  height: 150px;
-  border: 1px solid #ddd;
+    height: 150px;
+    border: 1px solid #ddd;
   }
-.cards-container {
-  flex-direction: column;
-margin-left: 0;
-margin-bottom: 32px;
+  .cards-container {
+    flex-direction: column;
+    margin-left: 0;
+    margin-bottom: 32px;
+  }
 }
-}
-  
 
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .nav {
+    flex-direction: column;
+  }
+  .nav-item {
+    margin-right: 0;
+  }
+}
